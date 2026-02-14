@@ -1,7 +1,38 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+*.tsbuildinfo
 
+# Environment
 .env
-*.log
+.env.local
+.env.*.local
 
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Vite
+apps/*/node_modules/.vite/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Private user workspace
 .user-folder/
+settings.local.json
